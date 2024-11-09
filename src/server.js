@@ -13,7 +13,7 @@ app.use(express.json());
 
 let corsOptions = {
     //           CRA local                  Vite local                  Deployed React app
-    origins: ["http://localhost:3000", "http://localhost:5173", "https://dployedreactapp.com"],
+    origins: ["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:5713", "https://deployedreactapp.com"],
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
